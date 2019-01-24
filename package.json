@@ -1,0 +1,23 @@
+{
+  "name": "anujak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "node ./node_modules/protractor/bin/protractor outputjs/conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^2.8.8"
+  },
+  "devDependencies": {
+    "@types/node": "~8.9.4",
+    "jasmine": "3.3.1",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "5.4.2",
+    "typescript": "3.2.4"
+  }
+}

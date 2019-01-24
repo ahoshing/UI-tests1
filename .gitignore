@@ -1,0 +1,16 @@
+# NPM
+node_modules
+npm-debug.log
+sandboxes.ts
+
+# Code Editor Settings
+.idea
+.vs
+
+# Build Generated Files
+outputjs/**/*.js
+
+
+
+
+
